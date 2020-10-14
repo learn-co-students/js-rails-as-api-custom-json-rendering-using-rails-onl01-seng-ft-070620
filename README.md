@@ -32,7 +32,7 @@ add a route:
 Rails.application.routes.draw do
   get '/birds' => 'birds#index'
   get '/birds/:id' => 'birds#show' # new
-end
+end 
 ```
 
 Then we could add an additional action:
